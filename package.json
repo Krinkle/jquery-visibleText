@@ -1,0 +1,32 @@
+{
+	"name": "jquery-visibleText",
+	"version": "0.1.0",
+	"description": "jQuery plugin for retrieving the text value of visible elements.",
+	"keywords": [
+		"jquery",
+		"jquery-plugin",
+		"text"
+	],
+	"homepage": "https://github.com/Krinkle/jquery-visibleText",
+	"bugs": "https://github.com/Krinkle/jquery-visibleText/issues",
+	"author": {
+		"name": "Timo Tijhof",
+		"web": "https://github.com/Krinkle"
+	},
+	"main": "./jquery.visibleText.js",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/Krinkle/jquery-visibleText.git"
+	},
+	"scripts": {
+			"test": "./node_modules/.bin/jshint . && phantomjs test/phantomjs-index.js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"jshint": "~0.9.1"
+	},
+	"licenses": [{
+		"type": "MIT",
+		"url": "http://mit-license.org/"
+	}]
+}
