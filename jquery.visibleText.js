@@ -1,4 +1,4 @@
-/**
+/*!
  * jQuery visibleText plugin 0.1.0
  * https://github.com/Krinkle/jquery-visibleText
  *
@@ -7,10 +7,16 @@
  *  Copyright 2012 jQuery Foundation and other contributors http://jquery.com/
  * @license MIT License <http://www.opensource.org/licenses/mit-license.php>
  */
+
 (function ($) {
 
 	/**
+	 * Get a string of all aggregated visible text nodes.
+	 *
+	 * @static
+	 * @method
 	 * @param {Array|jQuery|HTMLElement} elem
+	 * @return {string}
 	 */
 	var getVisibleText = $.getVisibleText = function (elem) {
 		var node,
@@ -39,6 +45,12 @@
 		return ret;
 	};
 
+	/**
+	 * See #getVisibleText.
+	 *
+	 * @method
+	 * @return {string}
+	 */
 	$.fn.visibleText = function () {
 		return getVisibleText(this);
 	};
