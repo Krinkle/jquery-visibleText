@@ -1,32 +1,34 @@
 {
-	"name": "jquery-visibleText",
-	"version": "0.1.0",
-	"description": "jQuery plugin for retrieving the text value of visible elements.",
-	"keywords": [
-		"jquery",
-		"jquery-plugin",
-		"text"
-	],
-	"homepage": "https://github.com/Krinkle/jquery-visibleText",
-	"bugs": "https://github.com/Krinkle/jquery-visibleText/issues",
-	"author": {
-		"name": "Timo Tijhof",
-		"web": "https://github.com/Krinkle"
-	},
-	"main": "./jquery.visibleText.js",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/Krinkle/jquery-visibleText.git"
-	},
-	"scripts": {
-			"test": "./node_modules/.bin/jshint . && phantomjs test/phantomjs-index.js"
-	},
-	"dependencies": {},
-	"devDependencies": {
-		"jshint": "~0.9.1"
-	},
-	"licenses": [{
-		"type": "MIT",
-		"url": "http://mit-license.org/"
-	}]
+  "name": "jquery-visibleText",
+  "version": "0.1.0",
+  "description": "jQuery plugin for retrieving the text value of visible elements.",
+  "keywords": [
+    "jquery",
+    "jquery-plugin",
+    "text"
+  ],
+  "homepage": "https://github.com/Krinkle/jquery-visibleText",
+  "bugs": "https://github.com/Krinkle/jquery-visibleText/issues",
+  "author": {
+    "name": "Timo Tijhof",
+    "web": "https://github.com/Krinkle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Krinkle/jquery-visibleText.git"
+  },
+  "scripts": {
+      "test": "grunt test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-qunit": "~0.5.1",
+    "qunitjs": "1.14.0"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://krinkle.mit-license.org/"
+  }]
 }
