@@ -1,13 +1,7 @@
-[![Build Status](https://secure.travis-ci.org/Krinkle/jquery-visibleText.png)](http://travis-ci.org/Krinkle/jquery-visibleText)
+[![Build Status](https://travis-ci.org/Krinkle/jquery-visibleText.svg?branch=master)](https://travis-ci.org/Krinkle/jquery-visibleText)
 
-# jQuery visibleText
-
-## Getting started
-```bash
-git clone https://github.com/Krinkle/jquery-visibleText.git
-```
+# jQuery VisibleText
 
 ## Contribute
-For feedback, bug reports, feature requests, discussion, support etc. use the [Issue tracker](https://github.com/Krinkle/jquery-visibleText/issues).
-
-When writing patches, please follow the JSHint rules and make sure the tests are up to date and passing.
+For feedback, bug reports, feature requests, discussion, support etc. use the
+[issue tracker](https://github.com/Krinkle/jquery-visibleText/issues).
