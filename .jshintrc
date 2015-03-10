@@ -12,9 +12,9 @@
 
 	// Environment
 	"browser": true,
+	"jquery": true,
 
 	"predef": [
-		"jQuery",
 		"QUnit"
 	]
 }

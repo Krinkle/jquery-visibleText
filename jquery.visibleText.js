@@ -1,11 +1,11 @@
 /*!
- * jQuery VisibleText plugin 0.1.1
+ * jQuery VisibleText plugin v0.1.2
  * https://github.com/Krinkle/jquery-visibleText
  *
- * @author Timo Tijhof, 2012-2014
+ * @author Timo Tijhof, 2012-2015
  * @source This plugin is based on Sizzle.getText.
  *  Copyright 2012 jQuery Foundation and other contributors http://jquery.com/
- * @license MIT License <http://www.opensource.org/licenses/mit-license.php>
+ * @license MIT License http://krinkle.mit-license.org/
  */
 
 (function ($) {

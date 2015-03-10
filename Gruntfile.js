@@ -5,16 +5,16 @@ module.exports = function (grunt) {
 
 	grunt.initConfig({
 		jshint: {
-			all: [
-				'*.js',
-				'test/**/*.js'
-			]
+			options: {
+				jshintrc: true
+			},
+			all: [ '*.js', 'test/**/*.js' ]
 		},
 		qunit: {
 			all: 'test/index.html'
 		}
 	});
 
-	grunt.registerTask('test', ['jshint', 'qunit']);
-	grunt.registerTask('default', ['test']);
+	grunt.registerTask('test', [ 'jshint', 'qunit'] );
+	grunt.registerTask('default', 'test');
 };
