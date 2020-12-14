@@ -18,18 +18,14 @@
     "url": "git://github.com/Krinkle/jquery-visibleText.git"
   },
   "scripts": {
-      "test": "grunt test"
+    "test": "semistandard && grunt test"
   },
-  "dependencies": {},
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.11.0",
-    "grunt-contrib-qunit": "^0.5.2",
-    "qunitjs": "1.17.1"
+    "grunt": "1.0.4",
+    "grunt-contrib-qunit": "3.1.0",
+    "qunit": "2.13.0",
+    "jquery": "3.5.1",
+    "semistandard": "^15.0.0"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://krinkle.mit-license.org/"
-  }]
+  "license": "MIT"
 }

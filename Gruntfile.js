@@ -1,20 +1,15 @@
-/*jshint node:true */
+/* eslint-env node */
 module.exports = function (grunt) {
-	grunt.loadNpmTasks('grunt-contrib-jshint');
-	grunt.loadNpmTasks('grunt-contrib-qunit');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
 
-	grunt.initConfig({
-		jshint: {
-			options: {
-				jshintrc: true
-			},
-			all: [ '*.js', 'test/**/*.js' ]
-		},
-		qunit: {
-			all: 'test/index.html'
-		}
-	});
+  grunt.initConfig({
+    qunit: {
+      options: {
+        puppeteer: { args: ['--no-sandbox'] }
+      },
+      all: 'test/index.html'
+    }
+  });
 
-	grunt.registerTask('test', [ 'jshint', 'qunit'] );
-	grunt.registerTask('default', 'test');
+  grunt.registerTask('test', ['qunit']);
 };

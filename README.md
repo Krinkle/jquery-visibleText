@@ -1,13 +1,9 @@
-[![Build Status](https://travis-ci.org/Krinkle/jquery-visibleText.svg?branch=master)](https://travis-ci.org/Krinkle/jquery-visibleText)
+[![Build Status](https://travis-ci.com/Krinkle/jquery-visibleText.svg?branch=main)](https://travis-ci.com/Krinkle/jquery-visibleText) [![Tested with QUnit](https://img.shields.io/badge/tested_with-qunit-9c3493.svg)](https://qunitjs.com/)
 
-# jQuery VisibleText
+# jQuery VisibleText plugin
 
-## Usage: getVisibleText
+## Usage
 
 ```javascript
 var text = $(element).getVisibleText();
 ```
-
-## Contribute
-For feedback, bug reports, feature requests, discussion, support etc. use the
-[issue tracker](https://github.com/Krinkle/jquery-visibleText/issues).
